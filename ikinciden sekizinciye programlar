@@ -1,0 +1,153 @@
+package sınıff;
+import java.util.Scanner;
+
+public class projjee2 {
+
+	public static void main(String[] args) {
+		Scanner giris = new Scanner(System.in);
+		
+		/*System.out.print("Sırayla iki derece değeri giriniz: ");
+		int derece = giris.nextInt();
+		int derece2 = giris.nextInt();
+		System.out.printf("%-10s%-10s%-10s%-10s%-10s\n","DERECE","RADYAN","SİNÜS","COSİNÜS","TANJANT");
+			
+				
+				double radyan = Math.toRadians(derece);
+				System.out.printf("%-10d%-10.4f%-10.4f%-10.4f%-10.4f\n",derece,radyan,Math.sin(radyan),Math.cos(radyan),Math.tan(radyan));
+				
+			    
+			    double radyan2 = Math.toRadians(derece2);
+				System.out.printf("%-10d%-10.4f%-10.4f%-10.4f%-10.4f\n",derece2,radyan2,Math.sin(radyan2),Math.cos(radyan2),Math.tan(radyan2));
+	*/
+			/*	String [] nesneler = {"Tas", "Kagit", "Makas"};
+				int prg = (int)(Math.random()*3);
+					
+				System.out.print("Tas;:0, Kagit:1, Makas:2 Hangisi? ");
+				int sen = giris.nextInt();
+				
+				
+				
+				System.out.println("Program: " + nesneler[prg]);
+				System.out.println("Sen: " + nesneler[sen]);
+					if ((prg==0 && sen==1) || (prg==1 && sen==2) || (prg==2 && sen==0) )
+						System.out.println("Kazandin!");
+						else if ((prg==0 && sen==2)|| (prg==1 && sen==0) || (prg==2 && sen==1) )
+							System.out.println("Kaybettin!");
+						else 
+							System.out.println("Kazanan Yok!");*/
+					
+					
+	
+	
+				
+				/*System.out.print("Vizenizi giriniz : ");
+				double vize = giris.nextDouble();
+				System.out.print("Finalinizi giriniz : ");
+				double finnal = giris.nextDouble();
+				System.out.println("Ortalamanız : "+hesapla(vize, finnal));
+				if (hesapla (vize, finnal)<=100 && hesapla(vize, finnal)>=90) {
+					System.out.println("A");
+				}
+				else if (hesapla(vize, finnal)<=89 && hesapla(vize, finnal)>=80) {
+					System.out.println("B");
+				}
+				else if (hesapla(vize, finnal)<=79 && hesapla(vize, finnal)>=70) {
+					System.out.println("C");
+				}
+				else if (hesapla(vize, finnal)<=69 && hesapla(vize, finnal)>=60) {
+					System.out.println("D");
+				}
+				else if (hesapla(vize, finnal)<=59 && hesapla(vize, finnal)>=50) {
+					System.out.println("F");
+				}
+				else System.err.println("KALDIN");
+				
+				
+				
+				}
+				 static int hesapla(double vize, double finnal) {
+				
+					return (int)(vize*0.4+finnal*0.6);*/
+				
+				
+				
+				
+				
+				
+				/*System.out.print("BİR TAM SAYI GİRİNİZ: ");
+				long sayii = giris.nextLong();
+				
+				if (sayii<10) {
+					System.out.println("Sayı tek basamaklı");
+				}
+				else if(sayii/10<=10) {
+					System.out.println("Sayı iki basamaklı");
+				    
+				}
+				else if(sayii/100<=10) {
+					System.out.println("Sayı üç basamaklı");			
+				}
+				else 
+					System.out.println("Sayı 4 ya da daha fazla basamaklı");*/
+					
+	
+	
+	
+				/*System.out.print("Bir tam sayı girin:");
+				int sayi1 = giris.nextInt();
+				
+				if (sayi1%2==0) {
+					System.out.println("GİRİLEN SAYI ÇİFT");
+					
+				}
+				else
+					System.out.println("GİRİLEN SAYI TEK");
+					
+					*/
+				
+				
+				/*final double KM_SABITI = 1.609;
+				System.out.println("Bir mil değeri giriniz: ");
+			    double mil = giris.nextDouble();
+			    double kilometre = (mil*KM_SABITI);
+			    System.out.println(mil + " mil = " + kilometre + " kilometre ");
+			    
+				*/
+				//mil değerini kilometreye dönüştürme 
+				
+				
+				
+				
+				/*System.out.print("KARDEŞLERİN YAŞLARINI GİRİNİZ: ");
+				int kardes1 = giris.nextInt();
+				int kardes2 = giris.nextInt();
+				
+				int toplam = (kardes1+kardes2);
+				int ortalama = (kardes1+kardes2)/2;
+				
+				System.out.println("Bir kardeşin yaşı: " + kardes1 + " ve " + "Diğer kardeşin yaşı: " + kardes2 + " " + "Yaşları toplamı: " +toplam);
+				System.out.println("Bir kardeşin yaşı: " + kardes1 + " ve " + "Diğer kardeşin yaşı: " + kardes2 + " " + "Yaşlarının ortalaması: " +ortalama);
+				*/
+				//iki kardeşin yaşları toplamı
+				 
+				 
+	
+				
+				System.out.print("ÜÇ ADET SAYI GİRİNİZ: ");
+				double sayi1 = giris.nextDouble();
+				double sayi2 = giris.nextDouble();
+				double sayi3 = giris.nextDouble();
+				
+				double ortalama = (sayi1+sayi2+sayi3)/3;
+				
+				System.out.println(sayi1 + ", " + sayi2 + " ve " + sayi3 + " 'n " + "Ortalaması: " + ortalama);
+			
+			    // herhangi 3 sayının ortalaması
+				
+				
+
+				
+				
+	}
+
+}
